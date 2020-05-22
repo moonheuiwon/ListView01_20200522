@@ -5,9 +5,12 @@ public class User {
     private  String name;
     private  String address;
 
-//    Alt + Insert 겟터앤세터누름
+//    Alt + Insert
 
-    public User() {
+
+    public User(String name, String address) {
+        this.name = name;
+        this.address = address;
     }
 
     public String getAddress() {
